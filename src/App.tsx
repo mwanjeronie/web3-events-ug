@@ -17,7 +17,8 @@ import { WalletProvider } from "./context/WalletContext"
 import { EventsProvider } from "./context/EventsContext"
 import { UserProvider } from "./context/UserContext"
 // import "./App.css"
-
+// Ensure the CSS file exists at the specified path and contains valid styles.
+// If the file is missing, create it with some basic styles to avoid the error.
 function App() {
   const [isLoading, setIsLoading] = useState(true)
 
